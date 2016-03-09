@@ -1,0 +1,36 @@
+! Title: Adblock Sri Lanka
+! Last modified: 09 March 2016 13:40 UTC
+! Expires: 10 days
+! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
+
+.lk/*/ads/
+||adsadmin.tamilmirror.lk^
+||ads.dailymirror.lk^
+||adstest.dailymirror.lk^
+||life.dailymirror.lk/ads^
+||wijeyadigital.lk/wijeyadigital.lk^
+||bestpromoslk.com^
+||codeartlove.com^
+||adbox.lk/show^
+||adlink.lk/display^
+www.ada.lk###openModal0
+www.ada.lk###frame > .main-header > .topad/
+www.gossiplankanews.com###Header1 > .rimage
+www.gossiplankanews.com###HTML7 > .title
+www.gossiplankanews.com###HTML5 > .title
+www.lankadeepa.lk###mid-container > .body_container > .body_rightbar > div:nth-of-type(3)
+
+!blocked all websites of asiabroadcasting(LK) for taking banwidth for granted
+
+!http://tools.pingdom.com/fpt/#!/dF5bHJ/hirufm.lk
+||hirufm.lk^
+!http://tools.pingdom.com/fpt/#!/ehI2vA/hirutv.lk
+||hirutv.lk^
+!http://tools.pingdom.com/fpt/#!/cqeUXa/shaafm.lk
+||shaafm.lk^
+!http://tools.pingdom.com/fpt/#!/bPkmmL/sunfm.lk << 57MB for a single page, fuck off
+||sunfm.lk^
+!http://tools.pingdom.com/fpt/#!/em9Cb4/goldfm.lk
+||goldfm.lk^
+!http://tools.pingdom.com/fpt/#!/ethhrx/sooriyanfm.lk << 8MB is not that bad, I am keeping an eye on you
+||sooriyanfm.lk^
