@@ -1,9 +1,10 @@
 ! Title: Adblock Sri Lanka
-! Last modified: 09 March 2016 13:40 UTC
-! Expires: 10 days
+! Last modified: 10 March 2016 06:03 UTC
+! Expires: 5 days
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
 
 .lk/*/ads/
+||g.adspeed.net*
 ||adsadmin.tamilmirror.lk^
 ||ads.dailymirror.lk^
 ||adstest.dailymirror.lk^
@@ -13,12 +14,26 @@
 ||codeartlove.com^
 ||adbox.lk/show^
 ||adlink.lk/display^
+||techkeels.com/creatives^
+||ribelz.org/ads^
+||adaderana.lk/news_banners^
 www.ada.lk###openModal0
 www.ada.lk###frame > .main-header > .topad/
 www.gossiplankanews.com###Header1 > .rimage
 www.gossiplankanews.com###HTML7 > .title
 www.gossiplankanews.com###HTML5 > .title
 www.lankadeepa.lk###mid-container > .body_container > .body_rightbar > div:nth-of-type(3)
+kuppiya.lk###content > .pageWidth > .pageContent > .mainContainer > .mainContent > center
+kuppiya.lk###content > .pageWidth > .pageContent > aside > .sidebar > div:nth-of-type(2)
+kuppiya.lk###content > .pageWidth > .pageContent > center:nth-of-type(1)
+kuppiya.lk###content > .pageWidth > .pageContent > center
+kuppiya.lk###content > .pageWidth > .pageContent > .sectionMain.section.discussionList > .InlineModForm.DiscussionList > .discussionListItems > center
+kuppiya.lk###messageList > li:nth-of-type(2)
+www.rivira.lk##.snp-pop-41216-overlay.fancybox-overlay
+www.rivira.lk##.fancybox-opened.snp-pop-theme_likebox-wrap.snp-pop-41216-wrap.snp-wrap.fancybox-type-inline.fancybox-desktop.fancybox-wrap
+www.ananmanan.lk###pagewrap > header > .topad4
+www.ananmanan.lk###pagewrap > header > .topad1
+www.ananmanan.lk##.container >.column-left > .h-add
 
 !blocked all websites of asiabroadcasting(LK) for taking banwidth for granted
 
@@ -34,3 +49,7 @@ www.lankadeepa.lk###mid-container > .body_container > .body_rightbar > div:nth-o
 ||goldfm.lk^
 !http://tools.pingdom.com/fpt/#!/ethhrx/sooriyanfm.lk << 8MB is not that bad, I am keeping an eye on you
 ||sooriyanfm.lk^
+
+!spaste adblcking detectors
+@@||www.spaste.com/themes/site/js/advertisement.js
+@@||www.spaste.com/ads/ads.html
