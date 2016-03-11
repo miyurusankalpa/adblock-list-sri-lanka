@@ -1,5 +1,5 @@
 ! Title: Adblock Sri Lanka
-! Last modified: 10 March 2016 06:03 UTC
+! Last modified: 11 March 2016 07:27 UTC
 ! Expires: 5 days
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
 
@@ -17,6 +17,8 @@
 ||techkeels.com/creatives^
 ||ribelz.org/ads^
 ||adaderana.lk/news_banners^
+||musiclk-images.sriview.com^
+||www.strangecube.com^
 www.ada.lk###openModal0
 www.ada.lk###frame > .main-header > .topad/
 www.gossiplankanews.com###Header1 > .rimage
@@ -34,21 +36,15 @@ www.rivira.lk##.fancybox-opened.snp-pop-theme_likebox-wrap.snp-pop-41216-wrap.sn
 www.ananmanan.lk###pagewrap > header > .topad4
 www.ananmanan.lk###pagewrap > header > .topad1
 www.ananmanan.lk##.container >.column-left > .h-add
+www.lankadeepa.lk###openModal0
+www.lankadeepa.lk###fancybox-overlay
+www.lankadeepa.lk###fancybox-content
+www.lankadeepa.lk###fancybox-close
+www.music.lk##body > table:nth-of-type(2) > tbody > tr:nth-of-type(1) > td > table:nth-of-type(2)
 
-!blocked all websites of asiabroadcasting(LK) for taking banwidth for granted
-
-!http://tools.pingdom.com/fpt/#!/dF5bHJ/hirufm.lk
-||hirufm.lk^
-!http://tools.pingdom.com/fpt/#!/ehI2vA/hirutv.lk
-||hirutv.lk^
-!http://tools.pingdom.com/fpt/#!/cqeUXa/shaafm.lk
-||shaafm.lk^
+!blocked sunfm taking banwidth for granted
 !http://tools.pingdom.com/fpt/#!/bPkmmL/sunfm.lk << 57MB for a single page, fuck off
 ||sunfm.lk^
-!http://tools.pingdom.com/fpt/#!/em9Cb4/goldfm.lk
-||goldfm.lk^
-!http://tools.pingdom.com/fpt/#!/ethhrx/sooriyanfm.lk << 8MB is not that bad, I am keeping an eye on you
-||sooriyanfm.lk^
 
 !spaste adblcking detectors
 @@||www.spaste.com/themes/site/js/advertisement.js
