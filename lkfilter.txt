@@ -1,6 +1,6 @@
 ! Title: Adblock Sri Lanka
-! Last modified: 12 March 2016 15:53 UTC
-! Expires: 5 days
+! Last modified: 13 March 2016 16:16 UTC
+! Expires: 2 days
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
 
 .lk/*/ads/
@@ -21,8 +21,10 @@
 ||www.strangecube.com^
 ||hiru.digital/ads^
 ||www.lakhiru.org/images/*.gif
+||tv.dutunudutu.info/images/banners^
+||www.tharunaya.co.uk/Banners^
 www.ada.lk###openModal0
-www.ada.lk###frame > .main-header > .topad/
+www.ada.lk###frame > .main-header > .topad
 www.gossiplankanews.com###Header1 > .rimage
 www.gossiplankanews.com###HTML7 > .title
 www.gossiplankanews.com###HTML5 > .title
@@ -45,6 +47,8 @@ www.lankadeepa.lk###fancybox-close
 www.music.lk##body > table:nth-of-type(2) > tbody > tr:nth-of-type(1) > td > table:nth-of-type(2)
 www.lakhiru.org###main > div:nth-of-type(1)
 www.lakhiru.org###add300x250:nth-of-type(1)
+www.tharunaya.co.uk###left_box_1
+www.tharunaya.co.uk###right_1:nth-of-type(1)
 @@||www.lakhiru.org/images/new-logo.gif
 
 !spaste adblcking detectors
