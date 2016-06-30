@@ -1,9 +1,11 @@
 ! Title: Adblock Sri Lanka
-! Last modified: 31 May 2016 08:00 UTC
+! Last modified: 30 June 2016 07:30 UTC
 ! Expires: 5 days
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
+! RAW: https://raw.githubusercontent.com/miyurusankalpa/adblock-list-sri-lanka/master/lkfilter.txt
 
 .lk/*/ads/
+.lk/banners/
 ||g.adspeed.net*
 ||adsadmin.tamilmirror.lk^
 ||ads.dailymirror.lk^
@@ -30,6 +32,9 @@
 ||static.lankadeepa.lk/dl_ads/*
 ||music.lk/site_images/branding/sprite/sprite250
 ||music.lk/site_images/prod/*.jpg
+||www.derana.lk/banners/*
+||adaderana.lk/banners/*
+||newsfirst.lk/english/wp-content/uploads*.gif
 www.ada.lk###openModal0
 www.ada.lk###frame > .main-header > .topad
 www.gossiplankanews.com###Header1 > .rimage
@@ -57,4 +62,9 @@ www.lakhiru.org###main > div:nth-of-type(1)
 www.lakhiru.org###add300x250:nth-of-type(1)
 www.tharunaya.co.uk###left_box_1
 www.tharunaya.co.uk###right_1:nth-of-type(1)
+www.derana.lk###alexa2
+www.derana.lk##.in.fade.modal-backdrop
+www.derana.lk##body > .advert_type_2:nth-of-type(4)
+www.derana.lk##body > .advert_type_2:nth-of-type(3)
+geek.lk##.container > .row > .page-sidebar
 @@||www.lakhiru.org/images/new-logo.gif
