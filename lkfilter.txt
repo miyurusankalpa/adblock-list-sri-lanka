@@ -1,12 +1,13 @@
 ! Title: Adblock Sri Lanka
-! Last modified: 30 June 2016 07:30 UTC
+! Last modified: 14 October 2016 07:44 UTC
 ! Expires: 5 days
+! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
 ! RAW: https://raw.githubusercontent.com/miyurusankalpa/adblock-list-sri-lanka/master/lkfilter.txt
 
 .lk/*/ads/
 .lk/banners/
-||g.adspeed.net*
+||g.adspeed.net
 ||adsadmin.tamilmirror.lk^
 ||ads.dailymirror.lk^
 ||adstest.dailymirror.lk^
@@ -32,8 +33,6 @@
 ||static.lankadeepa.lk/dl_ads/*
 ||music.lk/site_images/branding/sprite/sprite250
 ||music.lk/site_images/prod/*.jpg
-||www.derana.lk/banners/*
-||adaderana.lk/banners/*
 ||newsfirst.lk/english/wp-content/uploads*.gif
 www.ada.lk###openModal0
 www.ada.lk###frame > .main-header > .topad
@@ -43,7 +42,6 @@ www.gossiplankanews.com###HTML5 > .title
 www.lankadeepa.lk###mid-container > .body_container > .body_rightbar > div:nth-of-type(3)
 kuppiya.lk###content > .pageWidth > .pageContent > .mainContainer > .mainContent > center
 kuppiya.lk###content > .pageWidth > .pageContent > aside > .sidebar > div:nth-of-type(2)
-kuppiya.lk###content > .pageWidth > .pageContent > center:nth-of-type(1)
 kuppiya.lk###content > .pageWidth > .pageContent > center
 kuppiya.lk###content > .pageWidth > .pageContent > .sectionMain.section.discussionList > .InlineModForm.DiscussionList > .discussionListItems > center
 kuppiya.lk###messageList > li:nth-of-type(2)
