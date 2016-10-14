@@ -1,10 +1,12 @@
+[Adblock Plus 2.0]
+! Version: 1476469806
 ! Title: Adblock Sri Lanka
-! Last modified: 14 October 2016 07:44 UTC
+! Last modified: 14 October 2016 18:30 UTC
 ! Expires: 5 days
 ! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
 ! RAW: https://raw.githubusercontent.com/miyurusankalpa/adblock-list-sri-lanka/master/lkfilter.txt
-
+!-----------------------General advert blocking filters-----------------------!
 .lk/*/ads/
 .lk/banners/
 ||g.adspeed.net
