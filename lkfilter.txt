@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1476469806
+! Version: 1476469808
 ! Title: Adblock Sri Lanka
-! Last modified: 14 October 2016 18:30 UTC
+! Last modified: 28 April 2017 18:30 UTC
 ! Expires: 5 days
 ! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
@@ -38,9 +38,9 @@
 ||newsfirst.lk/english/wp-content/uploads*.gif
 www.ada.lk###openModal0
 www.ada.lk###frame > .main-header > .topad
-www.gossiplankanews.com###Header1 > .rimage
 www.gossiplankanews.com###HTML7 > .title
 www.gossiplankanews.com###HTML5 > .title
+www.gossiplankanews.com##.rimage
 www.lankadeepa.lk###mid-container > .body_container > .body_rightbar > div:nth-of-type(3)
 kuppiya.lk###content > .pageWidth > .pageContent > .mainContainer > .mainContent > center
 kuppiya.lk###content > .pageWidth > .pageContent > aside > .sidebar > div:nth-of-type(2)
