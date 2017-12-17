@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 1476469808
+! Version: 1513507431
 ! Title: Adblock Sri Lanka
-! Last modified: 28 April 2017 18:30 UTC
+! Last modified: 12 December 2017 18:30 UTC
 ! Expires: 5 days
 ! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
 ! Homepage: https://github.com/miyurusankalpa/adblock-list-sri-lanka
@@ -25,6 +25,8 @@
 ||musiclk-images.sriview.com^
 ||www.strangecube.com^
 ||hiru.digital/ads^
+||hiru.digital/*.gif
+||hiru.digital/*.jpg
 ||www.lakhiru.org/images/*.gif
 ||tv.dutunudutu.info/images/banners^
 ||www.tharunaya.co.uk/Banners^
@@ -36,6 +38,7 @@
 ||music.lk/site_images/branding/sprite/sprite250
 ||music.lk/site_images/prod/*.jpg
 ||newsfirst.lk/english/wp-content/uploads*.gif
+||static.lankadeepa.lk/assets/uploads/advr_*.jpg$image
 www.ada.lk###openModal0
 www.ada.lk###frame > .main-header > .topad
 www.gossiplankanews.com###HTML7 > .title
@@ -57,6 +60,10 @@ www.lankadeepa.lk###fancybox-overlay
 www.lankadeepa.lk###fancybox-content
 www.lankadeepa.lk###fancybox-close
 www.lankadeepa.lk###container > .ad-banner-image
+www.lankadeepa.lk###myDIV
+www.lankadeepa.lk##.adsBanner
+www.lankadeepa.lk##.*-ads
+www.lankadeepa.lk##script:contains(firstScriptTag)
 www.music.lk##body > table:nth-of-type(2) > tbody > tr:nth-of-type(1) > td > table:nth-of-type(2)
 www.lakhiru.org###main > div:nth-of-type(1)
 www.lakhiru.org###add300x250:nth-of-type(1)
